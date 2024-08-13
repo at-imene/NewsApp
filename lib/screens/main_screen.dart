@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
+import 'package:news_app/components/sidebar_menu.dart';
 import 'package:news_app/screens/favorite_screen.dart';
 import 'package:news_app/screens/home_screen.dart';
 import 'package:news_app/screens/profile_screen.dart';
@@ -89,8 +90,8 @@ class _MainScreenState extends State<MainScreen> {
                   text: 'Browse',
                 ),
                 GButton(
-                  icon: Icons.bookmark,
-                  text: 'Saved',
+                  icon: Icons.favorite_border_outlined,
+                  text: 'Favorites',
                 ),
                 GButton(
                   icon: Icons.person,
@@ -107,6 +108,7 @@ class _MainScreenState extends State<MainScreen> {
           ),
         ),
       ),
+      drawer: SidebarMenu(),
     );
   }
 }

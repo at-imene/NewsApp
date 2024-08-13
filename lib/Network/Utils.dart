@@ -11,7 +11,10 @@ class NetworkCall {
     List<NewsItem> news = [];
     try {
       http.Response response = await http
-          .get(Uri.parse("${WEBSITE_LINK}?q=Apple&apiKey=${API_KEY}"));
+          .get(Uri.parse("${WEBSITE_LINK}?q=Amazon&apiKey=${API_KEY}"));
+
+      // http.Response response = await http.get(Uri.parse(
+      //     "https://newsapi.org/v2/top-headlines?country=us&apiKey=${API_KEY}"));
       if (response.statusCode == 200) {
         var jsonData = jsonDecode(response.body);
         List<dynamic> articles = jsonData['articles'];

@@ -59,7 +59,7 @@ class ProfileScreen extends StatelessWidget {
                             fontSize: 16, fontWeight: FontWeight.w500),
                       ),
                       Text(
-                        '@CNN news',
+                        '@MLT news',
                         style: TextStyle(
                             fontSize: 16,
                             fontWeight: FontWeight.w500,

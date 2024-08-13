@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (_) => NewsList(),
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: Theme.of(context).copyWith(
             primaryColor: Colors.blue,

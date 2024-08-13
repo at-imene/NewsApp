@@ -37,8 +37,8 @@ class NewsDetailsAppBar extends StatelessWidget {
           actions: [
             AppBarIcon(
               icon: value.selectedItem.isFavorite
-                  ? Icons.bookmark
-                  : Icons.bookmark_border_rounded,
+                  ? Icons.favorite
+                  : Icons.favorite_border_outlined,
               iconColor: Colors.white,
               iconBgColor: Color(0xA5252525),
               onClickHandler: () {
