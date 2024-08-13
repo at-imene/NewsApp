@@ -1,16 +1,12 @@
-# news_app
+# Raven
 
-A new Flutter project.
+Raven is a cutting-edge news mobile app that keeps you informed with the latest headlines. Easily browse and search for news by keywords, ensuring you stay up-to-date on the topics that matter most to you. Whether you're following global events or niche interests, Raven delivers the news you need, right at your fingertips.
 
-## Getting Started
+![Mockup 18](https://github.com/user-attachments/assets/ee498592-8ba9-496e-808d-ce3a42d1e219)
 
-This project is a starting point for a Flutter application.
+Raven offers a seamless news experience with these key benefits:
+- Available on iOS and Android: Access the latest news on any device, anywhere.
+- Real-time Updates: Stay informed with the most current headlines.
+- Attractive and Intuitive UI: Enjoy a user-friendly design that makes browsing news effortless.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
