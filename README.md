@@ -4,9 +4,13 @@ Raven is a cutting-edge news mobile app that keeps you informed with the latest 
 
 ![Mockup 18](https://github.com/user-attachments/assets/ee498592-8ba9-496e-808d-ce3a42d1e219)
 
-Raven offers a seamless news experience with these key benefits:
+<b>Raven</b> offers a seamless news experience with these key benefits:
 - Available on iOS and Android: Access the latest news on any device, anywhere.
 - Real-time Updates: Stay informed with the most current headlines.
 - Attractive and Intuitive UI: Enjoy a user-friendly design that makes browsing news effortless.
 
+### Technology Stack:
 
+- Flutter & Dart: Ensures a smooth and responsive cross-platform experience.
+- Provider: Manages state efficiently for a seamless user experience.
+- API Integration: Delivers up-to-date news content through reliable API calls.
